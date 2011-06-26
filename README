@@ -1,0 +1,5 @@
+Sadly, Peter Falk died this week.  This means a lot of people are tweeting about Columbo.
+
+This script looks in a local file named columbo_episodes.txt for a newline separated list of Columbo episodes and then uses the Twitter Search API to see how many tweets have been posted for each of them.  Prints out the episode names, newline separated, in order of tweet count plus the count itself, separated by a '|'.
+
+Searches for the episode title in quotes plus the keyword columbo to avoid getting a lot of false positives for the episodes whose names are simply common phrases. E.g '"Dead Weight" columbo'
